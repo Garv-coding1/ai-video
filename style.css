@@ -1,0 +1,48 @@
+body {
+    background-size: cover;
+    background-position:center;
+    font-family: 'Hahmlet', serif;
+}
+
+.header {
+    width: 100%;
+    margin:0;
+    font-size:28px;
+    box-shadow: 5px 7px 20px green;
+    text-shadow:5px 2px grey;
+    font-family: 'Lobster', cursive;
+}
+#status,#alert {
+    font-size: 16px;
+}
+#number {
+    background-color: orange;
+    color: whitesmoke;
+    font-size: 16px;
+}
+#footer {
+    width:100%;
+    bottom:0;
+    position: fixed;
+    line-height: 2;
+    text-align: center;
+    background-color: teal;
+    color: turquoise;
+    font-size:15px;
+    margin-top: 150px;
+}
+canvas {
+    border-radius:15px;
+    border:turquoise 5px  ridge;
+    box-shadow:4px 7px 18px teal;
+    margin-top:145px;
+}
+#note {
+    font-size: 15px;
+    font-family: 'Hahmlet', serif;
+}
+
+#alert, #pause, #stop, #invert, #gray{
+    font-size:16px;
+    margin:10px;
+}
